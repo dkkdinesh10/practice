@@ -12,7 +12,7 @@ public class StringValidation {
 
     public static  boolean validateString(String str) {
         //Pattern p=new Pattern();
-        Stack<String> stack=new Stack<>();
+        Stack<String> stack=new Stack<String>();
         for(int i=0;i<str.length();i++){
             if(String.valueOf(str.charAt(i)).equals("{")
                     || String.valueOf(str.charAt(i)).equals("(")

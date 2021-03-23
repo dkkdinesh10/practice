@@ -6,7 +6,7 @@ import java.util.*;
 public class Test {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
-        List<Integer> list=new ArrayList<>();
+        List<Integer> list=new ArrayList<Integer>();
         //total list length
         int lines=sc.nextInt();
         //space seperated data
