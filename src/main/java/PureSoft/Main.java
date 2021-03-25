@@ -11,6 +11,5 @@ public class Main {
         HttpResponse<String> response = con.send(
                 HttpResponse.BodyHandlers.ofString());*/
 
-       ;
     }
 }
